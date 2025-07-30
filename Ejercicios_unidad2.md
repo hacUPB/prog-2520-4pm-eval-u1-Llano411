@@ -8,7 +8,7 @@ Para determinar cuántos estados diferentes se pueden representar usando **N bit
 
 Por lo tanto, el número de estados diferentes es $2$ elevado a la potencia de $N$
 
-Número de estados diferentes = $2^N$
+Número de estados diferentes = $2^N$.
 
 -----
 
