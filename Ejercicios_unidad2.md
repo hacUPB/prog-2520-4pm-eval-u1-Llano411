@@ -67,40 +67,7 @@ Por lo tanto, el número binario **10110** es igual a **22** en decimal.
 
 ## Ejercicio 4: Escribe un programa en Python que convierta un número decimal introducido por el usuario a binario.
 
-Este programa en Python solicita al usuario un número decimal entero no negativo y luego lo convierte a su representación binaria utilizando divisiones sucesivas.
-
-```python
-def decimal_a_binario(decimal):
-    # Caso especial para el número 0
-    if decimal == 0:
-        return "0"
-
-    binario = ""
-    # Realizamos divisiones sucesivas por 2
-    while decimal > 0:
-        # Obtenemos el residuo (será 0 o 1) y lo añadimos al inicio de la cadena binaria
-        binario = str(decimal % 2) + binario
-        # Actualizamos el número decimal para la siguiente iteración
-        decimal = decimal // 2 # División entera
-
-    return binario
-
-# Solicitar al usuario que introduzca un número
-try:
-    numero_decimal = int(input("Introduce un número decimal entero no negativo: "))
-
-    if numero_decimal < 0:
-        print("Error: Por favor, introduce un número decimal que no sea negativo.")
-    else:
-        # Llamar a la función para realizar la conversión
-        resultado_binario = decimal_a_binario(numero_decimal)
-        print(f"El número decimal {numero_decimal} en binario es: {resultado_binario}")
-
-except ValueError:
-    # Manejar el error si el usuario no introduce un número entero
-    print("Error: Entrada inválida. Por favor, introduce un número entero válido.")
-
-```
+No hemos visto python
 
 -----
 
@@ -448,6 +415,6 @@ El número muy grande es: 1234567890123456789012345678901234567890
 El tipo de dato es: <class 'int'>
 ```
 
-Como puedes ver, Python maneja sin problemas tanto el 300 como un número mucho más grande. Internamente, Python gestiona la representación de estos números utilizando múltiples "palabras" de la máquina según sea necesario, de forma transparente para el programador. Esto elimina la necesidad de preocuparse por los desbordamientos de enteros en la mayoría de los casos, a diferencia de otros lenguajes.
+Como se puede ver, Python maneja sin problemas tanto el 300 como un número mucho más grande. Internamente, Python gestiona la representación de estos números utilizando múltiples "palabras" de la máquina según sea necesario, de forma transparente para el programador. Esto elimina la necesidad de preocuparse por los desbordamientos de enteros en la mayoría de los casos, a diferencia de otros lenguajes.
 
 -----
