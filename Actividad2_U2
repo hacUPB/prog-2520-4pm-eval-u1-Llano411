@@ -13,3 +13,21 @@ Fin
 ```
 
 ![alt text](Imagen_Ejercicio1-1.png)
+
+---
+
+# Ejercicio 2
+
+Una empresa inportadora desea determinar cuantos dolares puede adquirir con equis cantidad de dinero colombiano. Realice un driagrama de flujo y pseudocodigo que representen el algoritmo para tal fin 
+
+## Pseudocodigo
+
+```
+Inicio 
+Leer x
+USD= x*0.00024
+Mostrar USD
+Fin 
+```
+
+![alt text](Ejercicio2_U2.drawio.png)
