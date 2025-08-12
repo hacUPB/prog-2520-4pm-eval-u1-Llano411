@@ -178,3 +178,65 @@ Fin
 --- 
 ### Diagrama de flujo
 ![alt text](<Untitled Diagram.drawio (2).png>)
+
+---
+## Tarea 
+Elabore un algoritmo que solicite al usuario su fecha de nacimiento (día, mes y año) y la fecha actual (día, mes y año). El algoritmo deberá calcular y mostrar la edad actual del usuario en años completos, considerando si ya ha cumplido años en el año en curso o no.
+
+### pseudocodigo
+
+```
+inicio 
+leer BD, BM, BY, dia, mes, año
+Edad = año - BY
+
+  Si mes >= BM Entonces 
+    EdadF = Edad
+  Sino mes < BM Entonces 
+    EdadF = Edad - 1
+  FinSi
+
+Leer EdadF
+Fin
+```
+
+
+--- 
+## Bucles o ciclos 
+![alt text](<Captura de pantalla 2025-08-12 164838.png>)
+
+### Ejercicios del libro
+
+4.1) Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10 % anual durante 6 años. ¿Cuál es su salario al cabo de 6
+años? ¿Qué salario ha recibido en cada uno de los 6 años? Realice el
+algoritmo y represente la solución mediante el diagrama de flujo, el
+pseudocódigo y el diagrama N/S, utilizando el ciclo apropiado.`
+
+### Pseudocodigo
+
+```
+Inicio
+AÑO=1 
+SAL=1500 
+TOTAL=0  
+Mientras AÑO < 7:
+    ANUAL = SAL * 1.1
+    TOTAL = TOTAL + ANUAL
+    SAL = ANUAL
+    AÑO = AÑO + 1
+    MOSTRAR ANUAL 
+Fin Mientras    
+Mostrar TOTAL
+Fin
+```
+--- 
+### Diagrama de flujo 
+![alt text](<Untitled Diagram.drawio (3).png>)
+
+4.3) Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cuántas son menores a cero, y cuántas son mayores a cero.
+
+Realice el diagrama de flujo, el pseudocódigo y el diagrama N/S para
+representarlo, utilizando el ciclo apropiado.
+
+### Diagrama de flujo 
+![alt text](<Untitled Diagram.drawio (4).png>)
