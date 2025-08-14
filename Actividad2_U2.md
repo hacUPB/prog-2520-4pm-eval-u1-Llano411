@@ -240,3 +240,52 @@ representarlo, utilizando el ciclo apropiado.
 
 ### Diagrama de flujo 
 ![alt text](<Untitled Diagram.drawio (4).png>)
+
+## Tarea: 
+
+Tienen una tarjeta de $10.000.000. Calcular el valor de todas las cuotas sabiendo:
+Valor de la compra
+Tasa de interés del 2%
+Número de cuotas. Máximo 36. 
+
+### Pseudocodigo
+
+---
+## Tarea 2 
+
+Realice el algoritmo para determinar cuánto pagará una persona que
+adquiere N artículos, los cuales están de promoción. Considere que
+si su precio es mayor o igual a $200 se le aplica un descuento de 15%,
+y si su precio es mayor a $100 pero menor a $200, el descuento es de
+12%; de lo contrario, sólo se le aplica 10%. Se debe saber cuál es el
+costo y el descuento que tendrá cada uno de los artículos y finalmente cuánto se pagará por todos los artículos obtenidos. Represente la
+solución mediante el diagrama de flujo, el pseudocódigo y el diagrama N/S
+
+### pseudocodigo
+
+---
+# TALLER 
+
+### Ejercicio 1 
+1. **Verificación de peso de despegue**
+    
+    En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga, supera el límite máximo permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista para despegar o si debe reducir carga o combustible.
+
+### diagrama de flujo 
+![alt text](image-2.png)
+---
+
+2. **Registro de altitudes de vuelo**
+
+    Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
+
+### diagrama de flujo 
+![alt text](image-3.png)
+---
+
+5. **Detección de turbulencia en trayecto**
+    
+    Un sensor mide la aceleración vertical de la aeronave en intervalos de un segundo durante un trayecto de 2 minutos. Si el valor medido supera un umbral, indicar que se ha detectado turbulencia en ese instante. Al final, mostrar cuántas turbulencias se detectaron.
+
+### diagrama de flujo
+![alt text](image-4.png)
